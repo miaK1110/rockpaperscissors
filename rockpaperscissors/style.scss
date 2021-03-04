@@ -1,0 +1,121 @@
+//start screen
+
+* {
+  font-family: 'stick', Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  .btn-container {
+    display: block;
+    text-align: center;
+    .btn {
+      margin-top: 2rem;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      border: 1px solid black;
+      border-radius: 0;
+      background: #fff;
+      font-size: 1.5rem;
+      &:hover {
+        color: white;
+        background: red;
+      }
+    }
+  }
+}
+
+.start-wrapper {
+  .title-container {
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .place-container {
+    text-align: center;
+    img {
+      width: 50vw;
+    }
+  }
+  .description-container {
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    p {
+      display: block;
+      text-align: left;
+      color: white;
+    }
+  }
+}
+
+.game-wrapper {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  .chara-container {
+    text-align: center;
+    margin: 0 auto;
+    .chara-name {
+      padding-top: 20px;
+      color: white;
+      margin: 0 auto;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 20px;
+    }
+    .hands-container {
+      .hand {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+  .life-container {
+    margin-top: 30px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: normal;
+    p {
+      float: left;
+      color: #fff;
+    }
+    i {
+      margin-left: 3px;
+    }
+    .fa,
+    .fas {
+      float: left;
+      font-weight: 800;
+      color: pink;
+    }
+  }
+  .result-wrapper {
+    width: 50%;
+    h3 {
+      color: white;
+    }
+  }
+  .comment-wrapper {
+    border: red;
+    background: white;
+    margin: 0 auto;
+    width: 50%;
+    height: max-content;
+    overflow: hidden;
+    .speaker {
+      display: block;
+      text-align: left;
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+    }
+    .comment {
+      font-size: 5rem;
+      text-align: center;
+      padding: 1rem 1rem;
+    }
+  }
+}
