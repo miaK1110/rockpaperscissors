@@ -80381,3 +80381,34 @@ Stack trace:
     [result] => 
 )
 
+[07-Mar-2021 11:15:04 Australia/Brisbane] post:Array
+(
+    [start] => Play
+)
+
+[07-Mar-2021 11:15:04 Australia/Brisbane] -----Game Start-----
+[07-Mar-2021 11:15:04 Australia/Brisbane] Session Data at start:Array
+(
+    [ally] => Allies Object
+        (
+            [name:Allies:private] => ranger-elf
+            [img:Allies:private] => imgs/charas/ranger.png
+            [attack:Allies:private] => 83
+            [type] => 5
+            [hand] => 3
+        )
+
+    [user] => User Object
+        (
+            [totalAllies:User:private] => 0
+            [lifeCount:User:private] => 3
+            [attackPoints:User:private] => 0
+        )
+
+    [speaker] => ranger-elf
+    [sentence] => Hi there.<BR/>
+    [sentenceResult] => 
+    [battleFlg] => 
+    [result] => 
+)
+
