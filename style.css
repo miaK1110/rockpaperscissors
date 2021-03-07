@@ -1,0 +1,154 @@
+* {
+  font-family: 'stick', Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper .btn-container {
+  display: block;
+  text-align: center;
+}
+
+.wrapper .btn-container .btn {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border: 1px solid black;
+  border-radius: 0;
+  background: #fff;
+  font-size: 1.5rem;
+}
+
+.wrapper .btn-container .btn:hover {
+  color: white;
+  background: red;
+}
+
+.start-wrapper .title-container {
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.start-wrapper .title-container h1 {
+  font-size: 2rem;
+}
+
+.start-wrapper .place-container {
+  text-align: center;
+}
+
+.start-wrapper .place-container img {
+  width: 50vw;
+  height: 50vh;
+}
+
+.start-wrapper .description-container {
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.start-wrapper .description-container p {
+  display: block;
+  text-align: left;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.game-wrapper {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.game-wrapper .chara-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.game-wrapper .chara-container .chara-name {
+  padding-top: 2rem;
+  color: white;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.game-wrapper .chara-container .chara-name h3 {
+  margin-bottom: 0.5rem;
+}
+
+.game-wrapper .chara-container img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.game-wrapper .chara-container .hands-container .hand {
+  width: 100px;
+  height: 100px;
+}
+
+.game-wrapper .life-container {
+  margin-top: 30px;
+  display: inline-block;
+  overflow: hidden;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+}
+
+.game-wrapper .life-container p {
+  float: left;
+  color: #fff;
+}
+
+.game-wrapper .life-container i {
+  margin-left: 3px;
+}
+
+.game-wrapper .life-container .fa,
+.game-wrapper .life-container .fas {
+  float: left;
+  font-weight: 800;
+  color: pink;
+}
+
+.game-wrapper .result-wrapper {
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.game-wrapper .result-wrapper h4 {
+  color: red;
+  padding-bottom: 0.5rem;
+}
+
+.game-wrapper .comment-wrapper {
+  border: red;
+  background: white;
+  margin: 0 auto;
+  width: 65%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  overflow: hidden;
+}
+
+.game-wrapper .comment-wrapper .speaker {
+  display: block;
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.game-wrapper .comment-wrapper .comment {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+/*# sourceMappingURL=style.css.map */
