@@ -76,7 +76,7 @@ if (!empty($_POST)) {
 
       <div class="start-wrapper">
         <div class="title-container">
-          <h1 class="title">Rock scissors paper</h1>
+          <h1 class="title">Rock Paper Scissors</h1>
         </div>
         <div class="place-container">
           <img src="imgs/objects/place.png">
